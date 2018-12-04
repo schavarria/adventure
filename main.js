@@ -26,7 +26,7 @@ if (hobbies == "drink") {
 		}
 		else if (beerChoice=="sour"){
 			score+=6
-			alert("samesies. Try Lovelady 9th Island Pineapple Sour, thank me later.")
+			alert("Samesies! Try Lovelady 9th Island Pineapple Sour, thank me later.")
 		}
 
 	}else{
@@ -37,7 +37,7 @@ if (hobbies == "drink") {
 
 }else if(hobbies == "smoke"){
 	score +=1
-	var smokeChoice = prompt("Okay lil' smokey, is it cigarettes or ganja?")
+	var smokeChoice = prompt("Okay lil' Smokey, is it cigarettes or ganja?")
 	if (smokeChoice == "cigarettes") {
 		score-=1
 		alert(`Cancer.. DEAD.. Whomp Whomp Whomp. Your score is ${score}!`)
@@ -46,11 +46,11 @@ if (hobbies == "drink") {
 		var ganjaChoice = prompt("grass or edibles?")
 		if (ganjaChoice == "grass"){
 			score+=6
-			alert (`puff puff pass! Your score is ${score}`)
+			alert (`Puff Puff Pass! Your score is ${score}`)
 		}
 		else if (smokeChoice = "edibles"){
 			score+=8
-			alert (`Special brownies = special dreams! Your score is ${score}!`)
+			alert (`Special brownies = Special dreams! Your score is ${score}!`)
 		}
 	}
 
@@ -61,7 +61,7 @@ if (hobbies == "drink") {
 	var	 join = confirm ("We are same, can I join?")
 		if (join == true){
 			score+=95
-			alert(`Well here is my number 818-720-4538 Your score is ${score}!`)
+			alert(` Here is my number 818-720-4538. Your score is ${score}!`)
 		}
 		else if (join == false){
 			score-=5
